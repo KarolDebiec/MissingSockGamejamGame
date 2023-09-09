@@ -3,11 +3,48 @@ losujesz karty
 4 wrogow 5 dla gracza
 miksujesz wrogow i bonusy
 walczysz za pomoca tego co zmiksowales z wrogami
+są złote karty, których nie można łączyć
 
 wrogowie podstawowi:
-slime
-szkielet
-jaszczurka
-ognik
+-slime
+-szkielet
+-jaszczurka
+-ognik
+
+kombinacje proste:
+jaszczurka + jaszczurka = krokodyl
+jaszcurka + szkielet = Marek Cukiergóra
 jaszczurka + ognik = smok
-slime + jaszczurka = ogr
+jaszczurka + slime = ogr
+szkielet + szkielet = rycerz
+szkielet + slime = ----
+szkielet + ognik = ----
+slime + slime = duży slime
+slime + ognik = -----
+ognik + ognik = blaze z minecraft
+
+itemy: (itemy dzielimy na pasywne i aktywne,aktywne mozna uzyc w walce, pasywne daja bonus do umiejetnosci postaci)
+- skarpetka ("Just a sock?")
+- gazrurka 
+- kijek
+- pochodnia
+- nóż
+kombinacje itemów:
+skarpetka + skarpetka = but / super buciki lux torpeda mucha nie siada
+skarpetka + gazrurka = baseball (odpycha wrogów)
+skarpetka + kijek = skarpetkowy wąż
+skarpetka + pochodnia = miotacz ognia
+skarpetka + nóż = katana
+gazrurka + gazrurka = palka policyjna
+gazrurka + pochodnia = ak47
+gazrurka + nóż = piła łańcuchowa
+gazrurka + kijek = gordon freeman 
+pochodnia + pochodnia = ----- 
+pochodnia + nóż = ognisty miecz
+pochodnia + kijek = różdżka
+kijek + kijek = łuk
+kijek + nóż = dzida
+nóż + nóż = miecz
+
+
+
