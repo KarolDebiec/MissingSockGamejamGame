@@ -3,11 +3,21 @@ losujesz karty
 4 wrogow 5 dla gracza
 miksujesz wrogow i bonusy
 walczysz za pomoca tego co zmiksowales z wrogami
+są złote karty, których nie można łączyć
 
 wrogowie podstawowi:
-slime
-szkielet
-jaszczurka
-ognik
+-slime
+-szkielet
+-jaszczurka
+-ognik
+
+kombinacje proste:
 jaszczurka + ognik = smok
 slime + jaszczurka = ogr
+szkielet + szkielet = rycerz
+slime + slime = duży slime
+jaszczurka + jaszczurka = krokodyl
+jaszcurka + szkiele = Marek Cukiergóra
+ognik + ognik = blaze z minecraft
+
+
