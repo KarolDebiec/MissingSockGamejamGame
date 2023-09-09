@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20912c0c331ed60409eac0cfe53c8c32, type: 3}
+  m_Name: CardCombinationDatabase
+  m_EditorClassIdentifier: 
+  combinations:
+  - Card1: {fileID: 11400000, guid: f17536b985db8cb49a32f7f7c6caf66e, type: 2}
+    Card2: {fileID: 11400000, guid: df3a2940ee48ee140bd729ab154256e0, type: 2}
+    ResultCard: {fileID: 11400000, guid: c0fe80fdb155a674989bc1980224ffe4, type: 2}
