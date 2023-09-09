@@ -12,12 +12,15 @@ wrogowie podstawowi:
 -ognik
 
 kombinacje proste:
-jaszczurka + ognik = smok
-slime + jaszczurka = ogr
-szkielet + szkielet = rycerz
-slime + slime = duży slime
 jaszczurka + jaszczurka = krokodyl
-jaszcurka + szkiele = Marek Cukiergóra
+jaszcurka + szkielet = Marek Cukiergóra
+jaszczurka + ognik = smok
+jaszczurka + slime = ogr
+szkielet + szkielet = rycerz
+szkielet + slime = ----
+szkielet + ognik = ----
+slime + slime = duży slime
+slime + ognik = -----
 ognik + ognik = blaze z minecraft
 
 itemy: 
