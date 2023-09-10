@@ -5,5 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "WeaponCard", menuName = "Card Game/WeaponCard", order = 3)]
 public class WeaponCard : PlayerCard
 {
-    
+    public GameObject weaponPrefab;
 }

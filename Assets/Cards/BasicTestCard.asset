@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2627b45e614ae5c4a8161e23f2d45686, type: 3}
   m_Name: BasicTestCard
   m_EditorClassIdentifier: 
-  cardName: it is a card
-  cardMiniature: {fileID: 21300000, guid: 8325d4ef0a6eb3d43952aff8a06d9f45, type: 3}
+  CardType: 2
+  cardName: Combination
+  cardMiniature: {fileID: 21300000, guid: f07ea65f5575a0242bb505c067fa0c7a, type: 3}
+  cardDescription: The outcome of combination of cards

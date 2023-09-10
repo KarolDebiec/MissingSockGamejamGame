@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c2dd954c6ff3b4e82db045a54a8af2, type: 3}
   m_Name: SkeletonCard
   m_EditorClassIdentifier: 
+  CardType: 1
   cardName: Scary Skeleton
-  cardMiniature: {fileID: 0}
+  cardMiniature: {fileID: 21300000, guid: b9987826937e86b95b27864e523a79f1, type: 3}
+  cardDescription: spooky scary skeleton

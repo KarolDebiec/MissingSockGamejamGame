@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c2dd954c6ff3b4e82db045a54a8af2, type: 3}
   m_Name: SlimeCard
   m_EditorClassIdentifier: 
+  CardType: 1
   cardName: Simple Slime
-  cardMiniature: {fileID: 0}
+  cardMiniature: {fileID: 21300000, guid: 442e325e684423b689931b6f4196c489, type: 3}
+  cardDescription: sweet and simple as it should be
