@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66c2dd954c6ff3b4e82db045a54a8af2, type: 3}
-  m_Name: ReptileCard
+  m_Name: CrocodileCard
   m_EditorClassIdentifier: 
   CardType: 1
-  cardName: Reptile
-  cardMiniature: {fileID: 21300000, guid: ab28e6b43cb79b9099a671763e7149ad, type: 3}
-  cardDescription: a fcking lizard innit?!
+  cardName: Crocodile
+  cardMiniature: {fileID: 0}
+  cardDescription: 
+  enemyPrefab: {fileID: 0}

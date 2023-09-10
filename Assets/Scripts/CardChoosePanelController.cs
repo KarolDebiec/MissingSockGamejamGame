@@ -22,15 +22,33 @@ public class CardChoosePanelController : MonoBehaviour
 
     public GameController gameController;
 
+    public List<Card> allBasicEnemies;
+    public List<Card> allBasicWeapons;
     void Start()
     {
-        //randomize the cards
+        SetRandomCards();
     }
 
-    // Update is called once per frame
-    void Update()
+    void SetRandomCards()
     {
-        
+        enemyCard1.SetCard(PickRandomCard(allBasicEnemies));
+        enemyCard2.SetCard(PickRandomCard(allBasicEnemies));
+        enemyCard3.SetCard(PickRandomCard(allBasicEnemies));
+        enemyCard4.SetCard(PickRandomCard(allBasicEnemies));
+        playerCard1.SetCard(PickRandomCard(allBasicWeapons));
+        playerCard2.SetCard(PickRandomCard(allBasicWeapons));
+        playerCard3.SetCard(PickRandomCard(allBasicWeapons));
+        playerCard4.SetCard(PickRandomCard(allBasicWeapons));
+        playerCard5.SetCard(PickRandomCard(allBasicWeapons));
+    }
+    Card PickRandomCard(List<Card> cards)
+    {
+        if (cards != null && cards.Count > 0)
+        {
+            int randomIndex = Random.Range(0, cards.Count);
+            return cards[randomIndex];
+        }
+        return null;
     }
     public void CombineCards()
     {
@@ -46,5 +64,9 @@ public class CardChoosePanelController : MonoBehaviour
         playerCombinationOutput2.card = gameController.GetCombinationResult(playerCard4.card, playerCard5.card);
         playerCombinationOutput2.UpdateDisplayFromCard();
         playerCombinationOutput2.cardType = CardType.Immovable;
+        gameController.enemies.Add(enemyCombinationOutput1.card);
+        gameController.enemies.Add(enemyCombinationOutput2.card);
+        gameController.playerCards.Add(playerCombinationOutput1.card);
+        gameController.playerCards.Add(playerCombinationOutput2.card);
     }
 }

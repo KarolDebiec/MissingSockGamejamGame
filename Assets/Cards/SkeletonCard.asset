@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardType: 1
   cardName: Scary Skeleton
-  cardMiniature: {fileID: 21300000, guid: 3a0c527d7f890d64a9b56b086e6e766a, type: 3}
+  cardMiniature: {fileID: 21300000, guid: b9987826937e86b95b27864e523a79f1, type: 3}
   cardDescription: spooky scary skeleton

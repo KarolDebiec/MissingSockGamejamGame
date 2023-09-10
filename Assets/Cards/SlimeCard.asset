@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardType: 1
   cardName: Simple Slime
-  cardMiniature: {fileID: 21300000, guid: 3a0c527d7f890d64a9b56b086e6e766a, type: 3}
+  cardMiniature: {fileID: 21300000, guid: 442e325e684423b689931b6f4196c489, type: 3}
   cardDescription: sweet and simple as it should be
