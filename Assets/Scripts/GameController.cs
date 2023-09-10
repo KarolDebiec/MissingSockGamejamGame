@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour
     public List<Vector3> enemyPositions;
     public int aliveEnemies = 2;
     public GameObject player;
+    public GameObject endPanel;
     public void StarGame()
     {
         displayPlayerCard1.SetCard(playerCards[0]);
@@ -74,13 +75,14 @@ public class GameController : MonoBehaviour
     public void EnemyDestroyed()
     {
         aliveEnemies--;
-        if(aliveEnemies>=0)
+        if(aliveEnemies<=0)
         {
             EndGame();
         }
     }
     public void EndGame()
     {
+        endPanel.SetActive(true);
         Debug.Log("gg wp wygrales");
     }
 }
