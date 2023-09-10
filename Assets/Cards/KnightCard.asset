@@ -16,5 +16,5 @@ MonoBehaviour:
   cardName: Knight
   cardMiniature: {fileID: 0}
   cardDescription: 
-  enemyPrefab: {fileID: 2484527216203295563, guid: f781a8a52b0cc694f82b29a0fe3f4abe,
+  enemyPrefab: {fileID: 2484527216203295563, guid: 183d6c432ca6d504d983b1946c766605,
     type: 3}
