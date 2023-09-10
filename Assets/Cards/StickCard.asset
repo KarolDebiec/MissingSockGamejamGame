@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardType: 0
   cardName: Stick
-  cardMiniature: {fileID: 21300000, guid: c8a69ecdf54ac8e4b873466605de27ff, type: 3}
+  cardMiniature: {fileID: 21300000, guid: 49e30074b39ab5fcd81fb63cbfab6916, type: 3}
   cardDescription: something sticky
+  weaponPrefab: {fileID: 0}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardType: 0
   cardName: Pistol
-  cardMiniature: {fileID: 21300000, guid: 65f0e363b74cf5845ab8c3fbc14f39ac, type: 3}
+  cardMiniature: {fileID: 21300000, guid: 8836967e8fc1328aabc6203ad0798f9c, type: 3}
   cardDescription: how?!?!?
   weaponPrefab: {fileID: 6381154008259138719, guid: a7c1f5e81b8a70444a3ff58da66a89e0,
     type: 3}
