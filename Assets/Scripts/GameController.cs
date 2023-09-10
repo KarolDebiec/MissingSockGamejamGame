@@ -5,14 +5,13 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public CardCombinationDatabase combinationDatabase;
-    public Card cardA;
-    public Card cardB;
-    public Card cardC;
+
+    public List<Card> enemies;
+    public List<Card> playerCards;
+
     // Start is called before the first frame update
     void Start()
     {
-        //test the combinations
-        cardC = GetCombinationResult(cardA, cardB);
     }
 
     // Update is called once per frame
@@ -21,6 +20,10 @@ public class GameController : MonoBehaviour
         
     }
 
+    public void StarGame()
+    {
+        Debug.Log("The has started");
+    }
 
     public Card GetCombinationResult(Card card1, Card card2)
     {

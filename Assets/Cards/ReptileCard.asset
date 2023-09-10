@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c2dd954c6ff3b4e82db045a54a8af2, type: 3}
   m_Name: ReptileCard
   m_EditorClassIdentifier: 
+  CardType: 1
   cardName: Reptile
-  cardMiniature: {fileID: 0}
+  cardMiniature: {fileID: 21300000, guid: 3a0c527d7f890d64a9b56b086e6e766a, type: 3}
+  cardDescription: a fcking lizard innit?!
