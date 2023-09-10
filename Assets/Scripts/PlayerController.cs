@@ -36,6 +36,7 @@ public class PlayerController : MonoBehaviour
     }
     void OnDie()
     {
+        GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().EndGame();
         Debug.Log("player died");
     }
 }

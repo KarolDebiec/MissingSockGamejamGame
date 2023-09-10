@@ -12,10 +12,6 @@ public class ShootingWeapon : MonoBehaviour
 
     public float fireRate = 0.5f;
     private float nextFireTime = 0f;
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
