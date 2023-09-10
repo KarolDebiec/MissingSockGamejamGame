@@ -1011,6 +1011,7 @@ MonoBehaviour:
   speed: 15
   leftWeaponSpot: {fileID: 1176337551}
   rightWeaponSpot: {fileID: 727541073}
+  rotationSpeed: 50
 --- !u!54 &424735951
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4129,7 +4130,7 @@ GameObject:
   - component: {fileID: 1707182061}
   m_Layer: 0
   m_Name: GameController
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4155,6 +4156,8 @@ MonoBehaviour:
   enemyPositions:
   - {x: 2, y: 1, z: 5}
   - {x: -3, y: 1, z: 5}
+  aliveEnemies: 2
+  player: {fileID: 424735945}
 --- !u!4 &1707182062
 Transform:
   m_ObjectHideFlags: 0
@@ -4163,7 +4166,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707182060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 443.59827, y: 230.19882, z: 548.5253}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

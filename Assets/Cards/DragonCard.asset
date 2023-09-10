@@ -16,4 +16,5 @@ MonoBehaviour:
   cardName: Dragon
   cardMiniature: {fileID: 21300000, guid: 2eae923b6b6f69fb5949047b633614c0, type: 3}
   cardDescription: 
-  enemyPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 2484527216203295563, guid: f781a8a52b0cc694f82b29a0fe3f4abe,
+    type: 3}

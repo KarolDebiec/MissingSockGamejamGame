@@ -16,4 +16,5 @@ MonoBehaviour:
   cardName: Fire Slime
   cardMiniature: {fileID: 21300000, guid: 442e325e684423b689931b6f4196c489, type: 3}
   cardDescription: Sticky and hot
-  enemyPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 2484527216203295563, guid: f781a8a52b0cc694f82b29a0fe3f4abe,
+    type: 3}

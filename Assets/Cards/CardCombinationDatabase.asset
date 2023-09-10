@@ -45,7 +45,7 @@ MonoBehaviour:
     ResultCard: {fileID: 11400000, guid: b21c92d11bb2c554e8e5fa3e0ac373ef, type: 2}
   - Card1: {fileID: 11400000, guid: c140e15f75144dc4db1bbbaa0d69c812, type: 2}
     Card2: {fileID: 11400000, guid: 978df9e24394c6d41a08d2261dd6317f, type: 2}
-    ResultCard: {fileID: 11400000, guid: 5b3aab150b17c6349a8e2517a8bac291, type: 2}
+    ResultCard: {fileID: 11400000, guid: 4e229151d2c44e349b5f358d5d82d59a, type: 2}
   - Card1: {fileID: 11400000, guid: c140e15f75144dc4db1bbbaa0d69c812, type: 2}
     Card2: {fileID: 11400000, guid: c140e15f75144dc4db1bbbaa0d69c812, type: 2}
-    ResultCard: {fileID: 11400000, guid: c140e15f75144dc4db1bbbaa0d69c812, type: 2}
+    ResultCard: {fileID: 11400000, guid: 4e229151d2c44e349b5f358d5d82d59a, type: 2}

@@ -11,6 +11,7 @@ public class SlimeController : EnemyController
     private float intervalTime = 0;
     public bool waitForAttack = false;
     public float pushDistance = 1f;
+    public float rotationSpeed = 10f;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,11 @@ public class SlimeController : EnemyController
     {
         if (player != null && !waitForAttack)
         {
+            Vector3 direction = player.transform.position - transform.position;
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
+
+
             transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
         }
         if(waitForAttack)

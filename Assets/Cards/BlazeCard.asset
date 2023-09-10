@@ -16,4 +16,5 @@ MonoBehaviour:
   cardName: Blaze
   cardMiniature: {fileID: 21300000, guid: f799c8a6889ff73fabb7703305bd06db, type: 3}
   cardDescription: Fire in the hole!
-  enemyPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 2484527216203295563, guid: f781a8a52b0cc694f82b29a0fe3f4abe,
+    type: 3}

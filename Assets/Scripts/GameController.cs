@@ -11,23 +11,15 @@ public class GameController : MonoBehaviour
     public List<Card> enemies;
     public List<Card> playerCards;
     public List<Vector3> enemyPositions;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    public int aliveEnemies = 2;
+    public GameObject player;
     public void StarGame()
     {
         displayPlayerCard1.SetCard(playerCards[0]);
         displayPlayerCard2.SetCard(playerCards[1]);
         SpawnEnemies();
+        SpawnWeapons();
+        aliveEnemies = 2;
         Debug.Log("The game has started");
     }
 
@@ -62,5 +54,33 @@ public class GameController : MonoBehaviour
         {
             Debug.LogError("Second enemy card is not an enemy card");
         }
+    }
+
+    void SpawnWeapons()
+    {
+        if (playerCards[0] is WeaponCard weaponCard1)
+        {
+            GameObject weapon = Instantiate(weaponCard1.weaponPrefab, enemyPositions[0], Quaternion.identity);
+            weapon.transform.parent = player.GetComponent<PlayerController>().leftWeaponSpot.transform;
+            weapon.transform.localPosition = Vector3.zero;
+        }
+        if (playerCards[1] is WeaponCard weaponCard2)
+        {
+            GameObject weapon = Instantiate(weaponCard2.weaponPrefab, enemyPositions[0], Quaternion.identity);
+            weapon.transform.parent = player.GetComponent<PlayerController>().rightWeaponSpot.transform;
+            weapon.transform.localPosition = Vector3.zero;
+        }
+    }
+    public void EnemyDestroyed()
+    {
+        aliveEnemies--;
+        if(aliveEnemies>=0)
+        {
+            EndGame();
+        }
+    }
+    public void EndGame()
+    {
+        Debug.Log("gg wp wygrales");
     }
 }

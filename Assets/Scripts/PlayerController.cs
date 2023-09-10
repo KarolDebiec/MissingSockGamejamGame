@@ -9,13 +9,19 @@ public class PlayerController : MonoBehaviour
     public float speed = 5.0f;
     public Transform leftWeaponSpot; 
     public Transform rightWeaponSpot;
+    public float rotationSpeed = 2f;
     void Update()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
-
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-        movement.Normalize();
+        if (moveHorizontal + moveVertical != 0)
+        {
+            movement.Normalize();
+            Quaternion targetRotation = Quaternion.LookRotation(movement);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
+        }
+
         transform.Translate(movement * speed * Time.deltaTime, Space.World);
     }
 
