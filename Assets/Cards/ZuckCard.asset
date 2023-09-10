@@ -16,5 +16,5 @@ MonoBehaviour:
   cardName: The Almighty Reptilian
   cardMiniature: {fileID: 21300000, guid: d1a32014b2c4f8d95be73da31cc7ff89, type: 3}
   cardDescription: the lord of the internet and master of shadows
-  enemyPrefab: {fileID: 2484527216203295563, guid: f781a8a52b0cc694f82b29a0fe3f4abe,
+  enemyPrefab: {fileID: 2484527216203295563, guid: 519fee6b5a1b9a744a04ba076a9408d5,
     type: 3}
