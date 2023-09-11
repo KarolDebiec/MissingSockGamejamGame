@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardType: 1
   cardName: Crocodile
-  cardMiniature: {fileID: 0}
+  cardMiniature: {fileID: 21300000, guid: ab28e6b43cb79b9099a671763e7149ad, type: 3}
   cardDescription: 
-  enemyPrefab: {fileID: 2484527216203295563, guid: f781a8a52b0cc694f82b29a0fe3f4abe,
+  enemyPrefab: {fileID: 2484527216203295563, guid: 5590a2099cc162340862c47a9f5538aa,
     type: 3}
